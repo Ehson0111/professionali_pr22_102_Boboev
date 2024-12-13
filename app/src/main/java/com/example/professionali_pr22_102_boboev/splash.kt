@@ -39,7 +39,7 @@ fun splash(navController: NavController){
         else {
             // Отображение основного контента после загрузки
            // OnboardingScreen(navController = navController)
-            mainscreen(navController = navController)
+            MainScreen(navController = navController)
         }
     }
 }

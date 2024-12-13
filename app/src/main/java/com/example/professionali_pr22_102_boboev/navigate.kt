@@ -12,10 +12,7 @@ fun Navigation(navController: NavHostController) {
         startDestination = Screen.mainscreen.route
     ) {
         composable(route = Screen.mainscreen.route) {
-            mainscreen(navController = navController)
-        }
-        composable(route = Screen.mainscreen.route) {
-            mainscreen(navController = navController)
+            MainScreen (navController = navController)
         }
     }
 }
