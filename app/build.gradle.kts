@@ -5,7 +5,7 @@ plugins {
 
 android {
     namespace = "com.example.professionali_pr22_102_boboev"
-    compileSdk = 34
+    compileSdk = 35
 
     defaultConfig {
         applicationId = "com.example.professionali_pr22_102_boboev"
@@ -50,6 +50,11 @@ android {
 }
 
 dependencies {
+    implementation ("androidx.compose.runtime:runtime:1.5.0")
+    implementation ("androidx.navigation:navigation-compose:2.4.0-alpha10")
+    implementation("androidx.compose.ui:ui:1.5.0")
+
+    implementation("com.google.accompanist:accompanist-pager-indicators:0.23.1")
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
